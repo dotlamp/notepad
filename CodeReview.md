@@ -15,3 +15,7 @@ Maketplace is volatile, uncertain, complex, ambigous (마켓 예측 불가)
 - 기능 변경 : 복붙 + 일부수정 -> 향후 수정시 문제
 - 공유 부족으로 소수의 개발 인력에 대한 의존도 높아짐
 #### 클린코드, 좋은설계, 아키텍처에 주의를 기울여야됨
+
+### SW개발의 단순한 진리
+- The only way to go fast, is to go well.
+
