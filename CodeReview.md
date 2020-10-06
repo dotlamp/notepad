@@ -11,4 +11,4 @@ Maketplace is volatile, uncertain, complex, ambigous (마켓 예측 불가)
 
 ### 아키텍처의 중요성
 + 엉망진창의 징후(signature of mess)
-- 기능이 동작만 하면 아키텍처 개선 없이 다음 기능 구현 Burndown Chart
+  기능이 동작만 하면 아키텍처 개선 없이 다음 기능 구현 Burndown Chart
