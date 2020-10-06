@@ -9,12 +9,13 @@
 => Deliver software rapidly, frequently, reliably (빠르게, 자주, 안전하게 배포)
 ```
 ### Architecture란?
+
 * The Two values of SW
-  - Secondary value of SW is it's behavior (현재 SW가 현재 사용자의 현재 요구사항을 만족)
-  - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate)
+ - Secondary value of SW is it's behavior (현재 SW가 현재 사용자의 현재 요구사항을 만족)
+ - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate)
 * 극단적 가정 
- -  동작하지만 고칠수 없는 SW
- -  고칠수 있지만 동작하지 않는 SW
+ - 동작하지만 고칠수 없는 SW
+ - 고칠수 있지만 동작하지 않는 SW
 
 * 1단계
   - 2단계
