@@ -46,5 +46,7 @@
   - maintainability, extensibility, testablity, scalability
   
   
-
+...
+더이상의 내용은
+누군가를 알려줄 때 필요..
  
