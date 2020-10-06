@@ -30,9 +30,9 @@
 
 ### Architecture란?
 
-* The Two values of SW
+* The Two values of SW (소프트웨어의 2가지 가치)
   - Secondary value of SW is it's behavior (현재 SW가 현재 사용자의 현재 요구사항을 만족)
-  - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate)
+  - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate) : 코드를 추가하고 변경을 얼마나 잘 할 수 있느냐
  
 * 극단적 가정 
   - 동작하지만 고칠수 없는 SW
