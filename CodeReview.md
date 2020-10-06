@@ -1,3 +1,5 @@
+출처 : https://www.youtube.com/watch?v=FJNV_qoRRks (백명석 유튜브)
+
 # CodeReview
 
 ## CodeReview
@@ -8,20 +10,6 @@
  +Businesses must innovate faster (사업 이노베이션 빠르게)
 => Deliver software rapidly, frequently, reliably (빠르게, 자주, 안전하게 배포)
 ```
-### Architecture란?
-
-* The Two values of SW
-  - Secondary value of SW is it's behavior (현재 SW가 현재 사용자의 현재 요구사항을 만족)
-  - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate)
- 
-* 극단적 가정 
-  - 동작하지만 고칠수 없는 SW
-  - 고칠수 있지만 동작하지 않는 SW
-
-* 1단계
-  - 2단계
-    + 3단계
-      + 4단계
 
 ### 아키텍처의 중요성
 
@@ -35,4 +23,17 @@
 
 ### SW개발의 단순한 진리
 * The only way to go fast, is to go well. (바쁘더라도 고퀄리티 코딩해야 함)
+
+
+### Architecture란?
+
+* The Two values of SW
+  - Secondary value of SW is it's behavior (현재 SW가 현재 사용자의 현재 요구사항을 만족)
+  - Primary Value of SW(80%) : 지속적으로 변화하는 요구사항 수용(telerate, faciliate)
+ 
+* 극단적 가정 
+  - 동작하지만 고칠수 없는 SW
+  - 고칠수 있지만 동작하지 않는 SW
+
+
 
