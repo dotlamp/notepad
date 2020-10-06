@@ -38,5 +38,13 @@
   - 동작하지만 고칠수 없는 SW
   - 고칠수 있지만 동작하지 않는 SW
 
+* 요구되는 시스템을 구축하고 유지보수하는데 요구되는 인적 리소스를 최소화하는 것
+* 기능 요구 사항과 무관
+  - 어떤 아키텍쳐로도 SW 구축 가능
+  - Big Ball of Mud
+* 비기능 요구사항에 대한 것 = 품질 속성("ilities")
+  - maintainability, extensibility, testablity, scalability
+  
+  
 
  
