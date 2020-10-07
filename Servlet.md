@@ -196,13 +196,11 @@ public class Simple extends HttpServlet {
         servlet-mapping의 servlet-name과 servlet의 servlet-name을 동일하게 작성해야 해당 url에 맞는 Servlet을 찾을 수 있다.
 
 관련된 Post
-
     JSP의 개념과 기본 문법에 대해 알고 싶으시면 JSP 란을 참고하시기 바랍니다.
     Web Server와 WAS의 개념과 차이에 대해 알고 싶으시면 Web Server VS WAS를 참고하시기 바랍니다.
     Web Application Structure과 web.xml 설정 내용, 역할 및 간단한 예시에 대해 알고 싶으시면 Web Application Structure 이해하기를 참고하시기 바랍니다.
 
 References
-
         http://www.nextree.co.kr/p8428/
         https://1ambda.github.io/javascripts/rest-api-put-vs-post/
         http://finerss.tistory.com/11
