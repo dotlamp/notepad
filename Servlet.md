@@ -9,7 +9,7 @@
 1. Web Server는 HTTP request를 Web Container(Servlet Container)에게 위임한다.
   1) web.xml 설정에서 어떤 URL과 매핑되어 있는지 확인
   2) 클라이언트(browser)의 요청 URL을 보고 적절한 Servlet을 실행
-  https://gmlwjd9405.github.io/2018/10/29/web-application-structure.html 참고
+  *  https://gmlwjd9405.github.io/2018/10/29/web-application-structure.html 참고
 
 2. Web Container는 service() 메서드를 호출하기 전에 Servlet 객체를 메모리에 올린다.
   1) Web Container는 적절한 Servlet 파일을 컴파일(.class 파일 생성)한다.
