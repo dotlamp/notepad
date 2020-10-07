@@ -90,23 +90,23 @@ public class LoginServlet extends HttpServlet {
     }
 }
 ```
-WAS는 웹 브라우저로부터 요청을 받으면
+#### WAS는 웹 브라우저로부터 요청을 받으면
 
     요청할 때 가지고 있는 정보를 HttpServletRequest객체를 생성하여 저장한다.
     웹 브라우저에게 응답을 보낼 때 사용하기 위하여 HttpServletResponse객체를 생성한다.
     생성된 HttpServletRequest, HttpServletResponse 객체를 Servlet에게 전달한다.
 
-개발자는 일반적으로 javax.servlet.http.HttpServlet를 상속받은 Servlet 클래스를 작성한다.
+#### 개발자는 일반적으로 javax.servlet.http.HttpServlet를 상속받은 Servlet 클래스를 작성한다.
 
     HttpServletRequest request 파라미터를 통해 사용자가 입력한 form data를 읽는다.
     HttpServletResponse response 파라미터를 통해 출력/결과 Web Page를 생성한다.
 
-개발자는 Servlet 클래스에 doGet() 또는 doPost() 중 적어도 하나를 재정의하여 작성한다.
+#### 개발자는 Servlet 클래스에 doGet() 또는 doPost() 중 적어도 하나를 재정의하여 작성한다.
 
     protected doGet()(HttpServletRequest request, HttpServletResponse response){}
     protected doPost()(HttpServletRequest request, HttpServletResponse response){}
 
-HttpServletRequest request 객체
+#### HttpServletRequest request 객체
 
     사용자가 HTML Form에 입력한 내용(username과 password)을 request 객체에서 받아온다.
         즉, HTTP 프로토콜의 Request 정보를 Servlet에게 전달
@@ -127,7 +127,7 @@ HttpServletRequest request 객체
 
         String languages[] = request.getParameterValues("language");
 
-HttpServletResponse response 객체
+#### HttpServletResponse response 객체
 
     인자의 내용에 맞게 동적인 HTML 코드를 생성하여 response 객체에 담아 반환한다.
     getWriter() 메서드를 호출하여 PrintWriter 객체을 가져온 후 해당 객체에서 print, println 메서드를 실행한다.
@@ -164,6 +164,7 @@ Annotation Type
     @WebInitParam : 초기화 매개 변수 지정
     예시
 
+```JAVA
 @WebServlet(value = "/Simple", 
 initParams = {@WebInitParam(name="foo", value="Hello "), 
               @WebInitParam(name="bar", value=" World!")}) 
@@ -179,6 +180,7 @@ public class Simple extends HttpServlet {
 	      out.print("</body></html>"); 
     } 
 } 
+```
 
     버전에 따른 Servlet 사용 방법
         Servlet 3.0 spec 이상
