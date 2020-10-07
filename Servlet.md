@@ -18,3 +18,18 @@
 
 3. Web Container는 Request가 올 때마다 thread를 생성하여 처리한다.
   * 각 thread는 Servlet의 단일 객체에 대한 service() 메서드를 실행한다.
+
+#### Servlet Program에서 Thread의 역할
+* Thread란? 운영체제로부터 시스템 자원을 할당받는 작업의 단위
+  + https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html 참고
+* Servlet Program에서 thread가 수행할 메서드가 지정/할당되면
+  + thread는 생성 후 즉시 해당 메서드만 열심히 수행한다.
+  + 해당 메서드가 return하면 thread는 종료되고 제거된다.
+  + 즉, 실제로 thread의 역할: Servlet의 doGet() 또는 doPost()를 호출하는 것이다.
+
+* Web Container(Servlet Container)는 thread의 생성과 제거를 담당한다.
+  + 하지만 thread의 생성과 제거의 반복은 큰 오버헤드를 만든다.
+  + 이를 위해 Tomcat(WAS)은 “Thread Pool”(미리 thread를 만들어 놓음) 이라는 적절한 메커니즘을 사용하여 오버헤드를 줄인다.* 
+* 즉, WAS는 Servlet의 life cycle을 담당한다.
+  + 웹 브라우저 클라이언트의 요청이 들어왔을 때 Servlet 객체 생성은 WAS가 알아서 처리한다.
+  + WAS 위에서 Servlet이 돌아다니고 개발자는 이 Servlet을 만들어야 한다.
